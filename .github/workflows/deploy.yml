@@ -14,6 +14,10 @@ jobs:
         run: npm install
       - name: Building App
         run: npm run build
+  deploy:
+    needs: build-app
+    runs-on: ubuntu-latest
+    steps:
       - uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
