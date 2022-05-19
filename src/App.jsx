@@ -10,7 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to reload!
         </p>
-        <span className="App-link">Hello from test update :)</span>
+        <span className="App-link">Hello from test from develop :)</span>
       </header>
     </div>
   )
