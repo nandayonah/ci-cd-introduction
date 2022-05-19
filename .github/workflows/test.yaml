@@ -1,5 +1,8 @@
-asdadsad
-
-asdsadsa
-
-sadsad
+name: CI/CD Introductions
+on: [push] # stage
+jobs: # jobs to do
+    print-hello-world:
+        runs-on: ubuntu-latest # docker image
+        steps: # scripts to execute
+            - run: echo "Hello World"
+            - run: echo "Have a seat"
