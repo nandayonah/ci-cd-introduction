@@ -1,0 +1,6 @@
+{
+  "yaml.schemas": {
+    "file:///c%3A/Users/Fadli%20Hidayatullah/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+    "https://json.schemastore.org/github-workflow.json": "file:///d%3A/PERSONA_DEVS/belajar-docker/ci-cd-introduction/.github/workflows/deploy.yml"
+  }
+}
