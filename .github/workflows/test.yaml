@@ -2,13 +2,13 @@ name: CI/CD Introductions
 on: [push] # stage
 jobs: # jobs to do
     print-hello-world:
-        runs-on: node:18-alpine # docker image
+        runs-on: ubuntu-latest # docker image
         steps: # scripts to execute
             - run: echo "Hello World"
             - run: echo "Have a seat"
             - run: node --version
     print-hello-world2:
-        runs-on: node:18-alpine # docker image
+        runs-on: ubuntu-latest # docker image
         steps: # scripts to execute
             - run: echo "Hello World"
             - run: echo "Have a seat"
