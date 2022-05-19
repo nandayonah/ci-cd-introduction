@@ -1,16 +1,7 @@
-name: CI/CD Introductions
-on: [push] # stage
-jobs: # jobs to do
-    print-hello-world:
-        runs-on: ubuntu-latest # docker image
-        steps: # scripts to execute
-            - run: echo "Hello World"
-            - run: echo "Have a seat"
-            - run: node --version
-    print-hello-world2:
-        runs-on: ubuntu-latest # docker image
-        steps: # scripts to execute
-            - run: echo "Hello World"
-            - run: echo "Have a seat"
-            - run: node --version
-    
+name: Github CI/CD Actions
+on: [push]
+jobs:
+    build-app:
+        uses: actions/checkout@v3
+        steps:
+            - run: tree
